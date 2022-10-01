@@ -19,9 +19,4 @@
 ##git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 
 # Add a feed source
-echo 'src-git lienol https://github.com/Lienol/openwrt-package
-src-git wifidog https://github.com/wifidog/wifidog-gateway.git
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
